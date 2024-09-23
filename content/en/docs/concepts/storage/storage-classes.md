@@ -288,7 +288,7 @@ volumeBindingMode: WaitForFirstConsumer
 parameters:
   csi.storage.k8s.io/fstype: xfs
   type: io1
-  iopsPerGB: "50"
+  iopsPerGB: "100"
   encrypted: "true"
   tagSpecification_1: "key1=value1"
   tagSpecification_2: "key2=value2"
